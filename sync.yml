@@ -1,0 +1,7 @@
+group:
+  # CODE_OF_CONDUCT
+  - files:
+      - source: CODE_OF_CONDUCT.md
+        dest: CODE_OF_CONDUCT.md
+    repos: |
+      factly/test-sync
