@@ -1,7 +1,14 @@
 group:
-  # CODE_OF_CONDUCT
+  # CODE OF CONDUCT
   - files:
       - source: CODE_OF_CONDUCT.md
         dest: CODE_OF_CONDUCT.md
     repos: |
       factly/test-sync
+
+  # MIT LICENSE
+  - files:
+      - source: license/LICENSE
+        dest: LICENSE
+    repos: |
+      factly/test-sync      
