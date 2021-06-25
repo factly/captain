@@ -15,3 +15,6 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           CONFIG_PATH: sync.yml
+          PR_LABELS: |
+            captain-factly
+            automerge          

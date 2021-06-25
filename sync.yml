@@ -12,3 +12,10 @@ group:
         dest: LICENSE
     repos: |
       factly/test-sync
+
+  # Golang Workflow - CI
+  - files:
+      - source: workflows/golang-servers/ci.yml
+        dest: .github/workflows/ci.yml
+    repos: |
+      factly/test-sync
