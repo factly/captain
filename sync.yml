@@ -19,3 +19,10 @@ group:
         dest: .github/workflows/ci.yml
     repos: |
       factly/test-sync
+
+  # Test
+  - files:
+      - source: workflows/common/automerge.yml
+        dest: .github/workflows/automerge.yml
+    repos: |
+      factly/test-sync      
